@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Preview in Siteleaf': 'siteleaf:preview'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Siteleaf'
+      'submenu': [
+        { 'label': 'Preview', 'command': 'siteleaf:preview' }
+      ]
+    ]
+  }
+]
