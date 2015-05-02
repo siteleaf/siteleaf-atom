@@ -3,13 +3,13 @@
   '.overlayer':
       'Preview in Siteleaf': 'siteleaf:preview'
 
-'menu': [
+menu: [
   {
-    'label': 'Packages'
-    'submenu': [
-      'label': 'Siteleaf'
-      'submenu': [
-        { 'label': 'Preview', 'command': 'siteleaf:preview' }
+    label: 'Packages'
+    submenu: [
+      label: 'Siteleaf'
+      submenu: [
+        {label:'Preview', command:'siteleaf:preview'}
       ]
     ]
   }
