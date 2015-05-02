@@ -3,7 +3,7 @@
   "main": "./lib/siteleaf-atom",
   "version": "0.0.1",
   "description": "Siteleaf package for the Atom text editor",
-  "activationEvents": ["siteleaf:preview"],
+  "activationCommands": ["siteleaf:preview"],
   "repository": "https://github.com/siteleaf/siteleaf-atom",
   "license": "MIT",
   "engines": {
